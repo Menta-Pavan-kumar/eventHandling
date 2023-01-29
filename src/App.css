@@ -1,38 +1,78 @@
+body {
+  height: 100vh;
+  
+  justify-content: center;
+  align-items: center;
+  background-color: #fcf7efc2;
+
+}
+.title {
+  text-align: center;
+  width: 30vw;
+  background-color: rgb(190, 164, 214);
+  padding: 2vw 1vw;
+  border-radius: 10px 10px 0 0;
+  font-size: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin: auto;
+  width: 30vw;
+  padding: 2vw 1vw;
+  background-color: #fff;
+  
+  border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    margin: 40px 35% 0;
+    padding: 20px 0 28px;
+    width: 396px;
+}
+input {
+  border: 1px solid rgb(172, 171, 171);
+  border-radius: 10px;
+  padding: 1vw 1vw;
+  outline: none;
+  margin: 5px;
+}
+button {
+  border: 1px solid rgb(172, 171, 171);
+  border-radius: 10px;
+  padding: 1vw 1vw;
+  outline: none;
+  margin: 5px;
+}
+.register{
+  border: 1px solid rgb(172, 171, 171);
+  border-radius: 10px;
+  padding: 1vw 1vw;
+  outline: none;
+  margin: 5px;
+}
+table, th, td {
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+tr:hover {background-color: rgb(209, 198, 193);}
+table {
+  border-collapse: collapse;
+  margin: 20px;
+}
+table {
+  width: 100%;
+  padding-top: 20px;
+}
+
+th {
+  background-color: #04AA6D;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  height: 40px;
 }
